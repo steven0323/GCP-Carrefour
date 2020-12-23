@@ -91,12 +91,11 @@ def crawler(url):
                         inner_link.append("https://www.rt-mart.com.tw/direct/"+i.find("a",href=True)['href'])
         except:
             pass
+    '''
     all_url['url'] = inner_link
     all_url = pd.DataFrame(all_url)
     all_url.to_csv("url.csv",index=False)
-
-    u = pd.read_csv("url.csv")
-    inner_link = u.url
+    '''
     # getting all products links for further information extraction 
     df = {"product":[],"product link":[],"image url":[]}
     for link in tqdm(inner_link):
@@ -191,18 +190,55 @@ def page_info(df):
             info['category 5'].append("None")
 
         
-        
         try:
-            
-            if "商品規格" in soup.find("table",class_="title_word").find_all("td")[0].text:
-                spec = soup.find("table",class_="title_word").find_all("td")[1].text
-               
+
+            spec = soup.find("table",class_="title_word").text
+            spec = spec.replace("\r","")
+            spec = spec.replace("\n","")
+            spec = spec.replace("\xa0","")
+            spec = spec.replace("\t","")
+            spec = spec.split(" ")
+            k=0
+            for i in spec:
+                if "商品規格" in i:
+                    pass
+                elif "規格" in i:
+                    k+=1
+                    i = i.replace("規格","").replace(":","")
+                    info['specification'].append(i)
+                else:
+                    pass
+            if k ==0:
+                info['specification'].append("None")
+            '''
+            if soup.find("table",class_="title_word").find("select",class_="for_input"):
+                spec = soup.find("table",class_="title_word").find_all("td")[2].text
                 spec = spec.replace("\r","")
                 spec = spec.replace("\n","")
                 spec = spec.replace("\xa0","")
                 spec = spec.replace("\t","")
                 spec = spec.split(" ")
                 k=0
+                
+                for i in spec:
+                    if "規格" in i:
+                        k+=1
+                        i = i.replace("規格","").replace(":","")
+                        info['specification'].append(i)
+                    else:
+                        pass
+                if k ==0:
+                    info['specification'].append("None")
+            elif "商品規格" in soup.find("table",class_="title_word").find_all("td")[0].text:
+                spec = soup.find("table",class_="title_word").find_all("td")[1].text
+                
+                spec = spec.replace("\r","")
+                spec = spec.replace("\n","")
+                spec = spec.replace("\xa0","")
+                spec = spec.replace("\t","")
+                spec = spec.split(" ")
+                k=0
+                
                 for i in spec:
                     if "規格" in i:
                         k+=1
@@ -220,6 +256,8 @@ def page_info(df):
                 spec = spec.replace("\t","")
                 spec = spec.split(" ")
                 k=0
+                # debudding
+                
                 for i in spec:
                     if "規格" in i:
                         k+=1
@@ -229,6 +267,7 @@ def page_info(df):
                         pass
                 if k ==0:
                     info['specification'].append("None")
+        '''
         except:
             info['specification'].append("None")
         
@@ -272,7 +311,7 @@ def main():
     
     page_url = df['L3 link']
     df = crawler(page_url)
-    df.to_csv("stage01.csv",index=False)
+    #df.to_csv("stage01.csv",index=False)
     
     
     info = page_info(df)
