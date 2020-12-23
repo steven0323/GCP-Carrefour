@@ -47,22 +47,22 @@ GCP automation system with Carrefour
    ```
 3. Install required packages
     ```sh
-   pip3 install pandas
-  ```
-    ```sh
-   pip3 install numpy
+    pip3 install pandas
     ```
     ```sh
-   pip3 install bs4
+    pip3 install numpy
     ```
     ```sh
-   pip3 install selenium
+    pip3 install bs4
     ```
     ```sh
-   pip3 install tqdm
+    pip3 install selenium
     ```
     ```sh
-   pip3 install datetime
+    pip3 install tqdm
+    ```
+    ```sh
+    pip3 install datetime
     ```
 
 
