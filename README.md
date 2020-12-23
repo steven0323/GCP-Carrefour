@@ -72,7 +72,9 @@ GCP automation system with Carrefour
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more python-related information, please refer to the [Documentation 1](https://selenium-python.readthedocs.io/getting-started.html)_
+_[Documentation 2](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)_
+
 
 
 
