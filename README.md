@@ -26,28 +26,6 @@ GCP automation system with Carrefour
 
 
 
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <h3 align="center">project_title - Carrefour</h3>
-
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/steven0323/GCP-Carrefour"><strong>Scrapping website information»</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/steven0323/GCP-Carrefour">View Demo</a>
-    ·
-    <a href="https://github.com/steven0323/GCP-Carrefour">Report Bug</a>
-    ·
-    <a href="https://github.com/steven0323/GCP-Carrefour">Request Feature</a>
-  </p>
-</p>
-
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
@@ -68,7 +46,6 @@ GCP automation system with Carrefour
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -93,25 +70,22 @@ GCP automation system with Carrefour
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Python3.7
   ```sh
-  npm install npm@latest -g
+  sudo apt-get python3.7
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/steven0323/GCP-Carrefour.git
    ```
-2. Install NPM packages
+2. Install pip packages
    ```sh
-   npm install
+   sudo apt-get pip
    ```
 
 
@@ -128,7 +102,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+See the (https://github.com/steven0323/GCP-Carrefour.git) for a list of proposed features 
 
 
 
@@ -144,11 +118,6 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
 
 
 
