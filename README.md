@@ -16,7 +16,6 @@ GCP automation system with Carrefour
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -79,18 +78,6 @@ _[Documentation 2](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)_
 ## Roadmap
 
 See the (https://github.com/steven0323/GCP-Carrefour.git) for a list of proposed features 
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 
 
 
