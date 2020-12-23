@@ -35,14 +35,14 @@ GCP automation system with Carrefour
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Scrapping website information»</strong></a>
+    <a href="https://github.com/steven0323/GCP-Carrefour"><strong>Scrapping website information»</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/steven0323/GCP-Carrefour">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/steven0323/GCP-Carrefour">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/steven0323/GCP-Carrefour">Request Feature</a>
   </p>
 </p>
 
@@ -79,11 +79,7 @@ GCP automation system with Carrefour
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
 
 
 ### Built With
@@ -159,10 +155,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Steven Tseng - yuhtseng@ucdavis.edu - email
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
+Project Link: [https://github.com/steven0323/GCP-Carrefour]
 
 
 <!-- ACKNOWLEDGEMENTS -->
