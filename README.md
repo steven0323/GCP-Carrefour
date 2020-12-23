@@ -31,12 +31,6 @@ GCP automation system with Carrefour
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -47,23 +41,9 @@ GCP automation system with Carrefour
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-
-
-
-### Built With
-
-* []()
-* []()
-* []()
 
 
 
@@ -127,15 +107,5 @@ Contributions are what make the open source community such an amazing place to b
 Steven Tseng - yuhtseng@ucdavis.edu - email
 
 Project Link: [https://github.com/steven0323/GCP-Carrefour]
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
 
 
